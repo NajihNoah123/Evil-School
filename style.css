@@ -1,0 +1,26 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;   /* 100% of the Viewport Width */
+  height: 100vh;  /* 100% of the Viewport Height */
+  overflow: hidden; /* This PREVENTS scrolling entirely */
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', monospace;
+}
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute; /* Stack them on top of each other */
+  top: 0;
+  left: 0;
+}
+
+.hidden {
+  display: none !important; /* This hides the section completely */
+}
